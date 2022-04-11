@@ -214,7 +214,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #f6f6f6;
 }
 
 .sec-four .section-four-container {
@@ -244,6 +243,95 @@ body {
 .sec-four .section-four-container .para p {
   font-size: 20px;
   font-weight: 300;
+}
+
+.sec-five {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f6f6f6;
+}
+
+.sec-five .section-five-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  padding: 8em 0;
+}
+
+.sec-five .section-five-container .para {
+  text-align: center;
+}
+
+.sec-five .section-five-container .para h2 {
+  font-weight: bolder;
+  font-size: 44px;
+  margin: 0;
+}
+
+.sec-five .section-five-container .para p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.sec-five .section-five-container img {
+  width: 90%;
+}
+
+.sec-five .section-five-container .section-five-download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sec-five .section-five-container .section-five-download h3 {
+  font-size: 32px;
+}
+
+.sec-five .section-five-container .section-five-download button {
+  padding: 15px 30px;
+  font-size: 22px;
+  border-radius: 2em;
+  border: none;
+  color: #F5F6F6;
+  background-color: #5865f2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.sec-five .section-five-container .section-five-download button img {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 10px;
 }
 
 footer {
