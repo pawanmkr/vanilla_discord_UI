@@ -8,7 +8,7 @@ body {
 .sec-one {
   width: 100%;
   color: #F5F6F6;
-  background-color: #4949f5;
+  background-color: #5865f2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -176,20 +176,96 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #23272a;
+  color: white;
+  padding: 5em;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
 }
 
 footer .footer-up {
+  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+}
+
+footer .footer-up .footer-left {
+  width: 30%;
+}
+
+footer .footer-up .footer-left h3 {
+  margin: 0;
+  font-weight: bolder;
+  font-size: 32px;
+  color: #5865f2;
+}
+
+footer .footer-up .footer-left select {
+  margin: 2em 0;
+  background-color: #23272a;
+  color: #F5F6F6;
+  border: none;
+  font-size: 16px;
+}
+
+footer .footer-up .footer-left .socials img {
+  margin: auto 1.5em auto auto;
 }
 
 footer .footer-up .footer-right {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 16px;
+}
+
+footer .footer-up .footer-right .footer-links {
+  line-height: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .footer-up .footer-right .footer-links span {
+  color: #5865f2;
+}
+
+footer hr {
+  width: 80%;
+  border: 1px solid #5865f2;
+  margin: 2em 0;
+}
+
+footer .footer-bottom {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer-bottom button {
+  padding: 1em 1.5em;
+  border-radius: 2em;
+  border: none;
+  background-color: #5865f2;
+  color: #F5F6F6;
+  font-weight: 500;
 }
 /*# sourceMappingURL=style.css.map */

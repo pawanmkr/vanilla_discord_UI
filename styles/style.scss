@@ -1,5 +1,5 @@
 
-$bg: #4949f5;
+$bg: #5865f2;
 
 
 body {
@@ -139,19 +139,87 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #23272a;
+    color: white;
+    padding: 5em;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
 
     .footer-up {
-
+        width: 80%;
         display: flex;
-        justify-content: space-evenly;
 
-    .footer-left {
+        .footer-left {
+            width: 30%;
+
+            h3 {
+                margin: 0;
+                font-weight: bolder;
+                font-size: 32px;
+                color: $bg;
+            }
+
+            select {
+                margin: 2em 0;
+                background-color: #23272a;
+                color: #F5F6F6;
+                border: none;
+                font-size: 16px;
+            }
+
+            .socials {
+                img {
+                    margin: auto 1.5em auto auto;
+                }
+            }
+
+        }
+
+        .footer-right {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            font-size: 16px;
+
+            .footer-links {
+
+                span {
+                    color: #5865f2;
+                }
+
+                line-height: 2;
+                display: flex;
+                flex-direction: column;
+            }
+
+        }
 
     }
 
-    .footer-right {
+    hr {
+        width: 80%;
+        border: 1px solid #5865f2;
+        margin: 2em 0;
+    }
+
+    .footer-bottom {
+        width: 80%;
         display: flex;
-    }
+        justify-content: space-between;
+        align-items: center;
+
+        button {
+            padding: 1em 1.5em;
+            border-radius: 2em;
+            border: none;
+            background-color: #5865f2;
+            color: #F5F6F6;
+            font-weight: 500;
+        }
 
     }
+
 }
