@@ -2,11 +2,12 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   background-color: #ffffff;
-  color: white;
   font-size: 16px;
 }
 
 .sec-one {
+  width: 100%;
+  color: #F5F6F6;
   background-color: #4949f5;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -118,5 +119,77 @@ body {
 .sec-one .main-intro .landing-btns .web-btn {
   background-color: #1A1D1F;
   color: #F5F6F6;
+}
+
+.sec-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sec-two .section-two-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  padding: 8em 0;
+}
+
+.sec-two .section-two-container .para {
+  width: 25%;
+}
+
+.sec-two .section-two-container .para h2 {
+  font-weight: bolder;
+  font-size: 44px;
+  margin: 0;
+}
+
+.sec-two .section-two-container .para p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+footer .footer-up .footer-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */
