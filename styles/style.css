@@ -1,0 +1,122 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+  color: white;
+  font-size: 16px;
+}
+
+.sec-one {
+  background-color: #4949f5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(/svgs/svgexport-5.svg), url(/svgs/svgexport-6.svg), url(/svgs/svgexport-4.svg);
+  background-repeat: no-repeat;
+  background-size: 37.5%, 37.5%, 155%;
+  background-position: -15% 100%, 114% 100%, center;
+}
+
+.sec-one .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1em;
+}
+
+.sec-one .navbar .nav-menus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.sec-one .navbar .nav-menus a {
+  margin: 0 1em;
+  text-decoration: none;
+  color: white;
+}
+
+.sec-one .navbar .login-btn {
+  padding: 1em;
+  border-radius: 2em;
+  border: none;
+}
+
+.sec-one .main-intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1;
+  padding: 8em;
+}
+
+.sec-one .main-intro h1 {
+  font-size: 3.5em;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.sec-one .main-intro p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 1.5em;
+  line-height: 2;
+}
+
+.sec-one .main-intro .landing-btns {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sec-one .main-intro .landing-btns button {
+  padding: 15px 30px;
+  font-size: 22px;
+  border-radius: 2em;
+  border: none;
+  margin: 0 10px;
+}
+
+.sec-one .main-intro .landing-btns .download-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sec-one .main-intro .landing-btns .download-btn img {
+  margin-right: 10px;
+}
+
+.sec-one .main-intro .landing-btns .web-btn {
+  background-color: #1A1D1F;
+  color: #F5F6F6;
+}
+/*# sourceMappingURL=style.css.map */
