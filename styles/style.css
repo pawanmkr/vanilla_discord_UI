@@ -8,7 +8,7 @@ body {
 .sec-one {
   width: 100%;
   color: #F5F6F6;
-  background-color: #5865f2;
+  background-color: #404eed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -373,7 +373,7 @@ footer .footer-up .footer-left h3 {
   margin: 0;
   font-weight: bolder;
   font-size: 32px;
-  color: #5865f2;
+  color: #404eed;
 }
 
 footer .footer-up .footer-left select {
