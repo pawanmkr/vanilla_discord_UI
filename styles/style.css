@@ -162,6 +162,90 @@ body {
   font-weight: 300;
 }
 
+.sec-three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f6f6f6;
+}
+
+.sec-three .section-three-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  padding: 8em 0;
+}
+
+.sec-three .section-three-container .para {
+  width: 25%;
+}
+
+.sec-three .section-three-container .para h2 {
+  font-weight: bolder;
+  font-size: 44px;
+  margin: 0;
+}
+
+.sec-three .section-three-container .para p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.sec-four {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f6f6f6;
+}
+
+.sec-four .section-four-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  padding: 8em 0;
+}
+
+.sec-four .section-four-container .para {
+  width: 25%;
+}
+
+.sec-four .section-four-container .para h2 {
+  font-weight: bolder;
+  font-size: 44px;
+  margin: 0;
+}
+
+.sec-four .section-four-container .para p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
