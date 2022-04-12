@@ -57,6 +57,7 @@ body {
   padding: 1em;
   border-radius: 2em;
   border: none;
+  cursor: pointer;
 }
 
 .sec-one .main-intro {
