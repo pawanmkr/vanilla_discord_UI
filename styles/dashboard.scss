@@ -1,0 +1,61 @@
+$purple: #5865f2;
+
+
+body {
+    margin: 0;
+    background-color: #36393f;
+    color: #f6f6f6;
+}
+
+section {
+    display: flex;
+
+    .menu {
+        background-color: #202225;
+        height: 100vh;
+
+        hr {
+            margin-top: 5px;
+            width: 25px;
+            border: 1px solid #4f545c;
+        }
+
+        .menu-bottom, .menu-top {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            border-radius: 50%;
+            background-color: #2f3136;
+            padding: 10px;
+            width: 1.5em;
+            height: 1.5em;
+            margin: 5px 10px;
+        }
+
+        .server-dp {
+            padding: 0;
+            width: 3em;
+            height: 3em;
+        }
+
+        .menu-top {
+            margin-top: 5px;
+
+            .discord-logo {
+                background-color: #5865f2;
+                border-radius: 35%;
+            }
+
+        }
+
+    }
+
+    .channels {
+        background-color: #2f3136;
+    }
+
+}
